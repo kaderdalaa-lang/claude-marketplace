@@ -47,7 +47,7 @@
       "homepage": "https://github.com/upstash/context7"
     },
     {
-      "name": "claude-mem",
+      "name": "session-memory",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/thedotmack/claude-mem.git",

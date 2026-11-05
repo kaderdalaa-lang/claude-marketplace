@@ -23,7 +23,7 @@ claude plugin marketplace add kaderdalaa-lang/claude-marketplace
 /plugin install superpowers@kader-plugins
 /plugin install playwright@kader-plugins
 /plugin install context7@kader-plugins
-/plugin install claude-mem@kader-plugins
+/plugin install session-memory@kader-plugins
 ```
 
 Ou ouvrir `/plugin`, onglet **Discover**, et choisir un plugin de `kader-plugins`.
@@ -36,7 +36,7 @@ Ou ouvrir `/plugin`, onglet **Discover**, et choisir un plugin de `kader-plugins
 | superpowers | [obra/superpowers](https://github.com/obra/superpowers) | Skills : TDD, débogage, planification, revue |
 | playwright | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | Pilote un navigateur : clics, formulaires, captures, tests |
 | context7 | [upstash/context7](https://github.com/upstash/context7) | Documentation à jour des bibliothèques, par version |
-| claude-mem | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | Mémoire persistante entre sessions |
+| session-memory | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | Mémoire persistante entre sessions |
 
 ## Ajouter un plugin
 
