@@ -1,0 +1,39 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "kader-plugins",
+  "owner": {
+    "name": "kaderdalaa-lang",
+    "url": "https://github.com/kaderdalaa-lang"
+  },
+  "metadata": {
+    "description": "Mes plugins Claude Code, regroupés au même endroit.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "caveman",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/JuliusBrussee/caveman.git"
+      },
+      "description": "Réponses ultra-courtes : moins de tokens, détails techniques gardés.",
+      "category": "productivity"
+    },
+    {
+      "name": "superpowers",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/obra/superpowers.git"
+      },
+      "description": "Bibliothèque de skills : TDD, débogage, planification, revue de code.",
+      "category": "development"
+    },
+    {
+      "name": "playwright",
+      "source": "./plugins/playwright",
+      "description": "Automatisation de navigateur et tests end-to-end (serveur MCP Playwright de Microsoft).",
+      "category": "testing",
+      "homepage": "https://github.com/microsoft/playwright-mcp"
+    }
+  ]
+}
