@@ -24,6 +24,7 @@ claude plugin marketplace add kaderdalaa-lang/claude-marketplace
 /plugin install playwright@kader-plugins
 /plugin install context7@kader-plugins
 /plugin install session-memory@kader-plugins
+/plugin install e2e@kader-plugins
 ```
 
 Ou ouvrir `/plugin`, onglet **Discover**, et choisir un plugin de `kader-plugins`.
@@ -37,6 +38,7 @@ Ou ouvrir `/plugin`, onglet **Discover**, et choisir un plugin de `kader-plugins
 | playwright | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | Pilote un navigateur : clics, formulaires, captures, tests |
 | context7 | [upstash/context7](https://github.com/upstash/context7) | Documentation à jour des bibliothèques, par version |
 | session-memory | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | Mémoire persistante entre sessions |
+| e2e | [tester-army/e2e](https://github.com/tester-army/e2e) | Tests end-to-end web et mobile, écrits et lancés par agent |
 
 ## Ajouter un plugin
 

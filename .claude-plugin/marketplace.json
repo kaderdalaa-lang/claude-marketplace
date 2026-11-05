@@ -56,6 +56,17 @@
       "description": "Mémoire persistante entre sessions Claude Code : compression et réinjection du contexte.",
       "category": "productivity",
       "homepage": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "name": "e2e",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tester-army/e2e.git",
+        "path": "plugins/e2e"
+      },
+      "description": "Écrire, lancer et déboguer des tests end-to-end web et mobile (TesterArmy).",
+      "category": "testing",
+      "homepage": "https://github.com/tester-army/e2e"
     }
   ]
 }
