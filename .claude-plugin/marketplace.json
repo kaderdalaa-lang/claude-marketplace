@@ -34,6 +34,17 @@
       "description": "Automatisation de navigateur et tests end-to-end (serveur MCP Playwright de Microsoft).",
       "category": "testing",
       "homepage": "https://github.com/microsoft/playwright-mcp"
+    },
+    {
+      "name": "context7",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/upstash/context7.git",
+        "path": "plugins/claude/context7"
+      },
+      "description": "Documentation à jour des bibliothèques, par version, directement dans le contexte.",
+      "category": "development",
+      "homepage": "https://github.com/upstash/context7"
     }
   ]
 }
