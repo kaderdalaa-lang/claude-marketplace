@@ -51,3 +51,16 @@ Ajouter une entrée dans `.claude-plugin/marketplace.json` :
   "description": "Ce que fait le plugin."
 }
 ```
+
+## Barre de conso (5h + 7 jours, vert/rouge)
+
+Affiche sous la zone de saisie ta consommation Claude : fenêtre de 5 h et semaine.
+Vert = tu consommes moins vite que le temps qui passe (tu peux accélérer).
+Rouge = plus vite que le temps, ou plus de 85 % (ralentis).
+
+```bash
+git clone https://github.com/kaderdalaa-lang/claude-marketplace.git
+bash claude-marketplace/statusline/installer-conso.sh
+```
+
+Puis relancer Claude Code. Nécessite python3 et un abonnement Claude (Pro/Max) : la barre reste vide après le démarrage, jusqu'à la première réponse.
