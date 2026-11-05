@@ -45,6 +45,17 @@
       "description": "Documentation à jour des bibliothèques, par version, directement dans le contexte.",
       "category": "development",
       "homepage": "https://github.com/upstash/context7"
+    },
+    {
+      "name": "claude-mem",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thedotmack/claude-mem.git",
+        "path": "plugin"
+      },
+      "description": "Mémoire persistante entre sessions Claude Code : compression et réinjection du contexte.",
+      "category": "productivity",
+      "homepage": "https://github.com/thedotmack/claude-mem"
     }
   ]
 }
